@@ -1,0 +1,11 @@
+ahoyapi: 1.0
+usage: This is an imported set of commands
+import: commands.yml
+commands:
+  test:
+    usage: Override the test command in command.yml
+    cmd: echo "Override"
+  new:
+    usage: Create a new subcommand
+    cmd: echo "Override"
+
